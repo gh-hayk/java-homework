@@ -1,11 +1,13 @@
-//public class Car {
+package class_homework;
+
+//public class class_homework.Car {
 //    String model;
 //    int modelNumber;
 //    String color;
 //    int currentSpeed;
 //    boolean isEngineStart;
 //
-//    public Car(String model, int modelNumber, String color) {
+//    public class_homework.Car(String model, int modelNumber, String color) {
 //        this.model = model;
 //        this.modelNumber = modelNumber;
 //        this.color = color;
@@ -26,7 +28,7 @@
 //                isEngineStart = false;
 //                System.out.println("Engine stopped for " + model + " " + modelNumber);
 //            } else {
-//                System.out.println("Cannot stop engine! Car is moving at speed " + currentSpeed);
+//                System.out.println("Cannot stop engine! class_homework.Car is moving at speed " + currentSpeed);
 //            }
 //        } else {
 //            System.out.println("Engine is already off!");

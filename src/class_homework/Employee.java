@@ -1,3 +1,5 @@
+package class_homework;
+
 public class Employee {
     private int id;
     private int departmentNumber;
@@ -11,7 +13,7 @@ public class Employee {
         this.gender = gender;
     }
     void printEmploye() {
-        System.out.println("---Employee Information---");
+        System.out.println("---class_homework.Employee Information---");
         System.out.println("ID: " + id);
         System.out.println("Department Number: " + departmentNumber);
         System.out.println("Age: " + age);

@@ -1,3 +1,5 @@
+package class_homework;
+
 public class City {
     public static void main(String[] args) {
         City yerevan = new City('Y', 1075000);

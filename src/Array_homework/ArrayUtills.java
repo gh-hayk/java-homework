@@ -1,3 +1,4 @@
+package Array_homework;
 
 public class ArrayUtills {
     //1.Գրել method, որը տպում է int[] n array-ի դրական տարրերը․

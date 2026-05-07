@@ -1,3 +1,4 @@
+package methods_homework;
 
 public class Methods {
     //1.Write a method which has two input parameters: type  int and return 0.

@@ -1,3 +1,5 @@
+package String_homework;
+
 public class stringUtil {
     //1․Գրել method,որը կատարում է String concatenation տվյալ պարամետրով․
     public String concat(String s1, String s2) {
