@@ -1,4 +1,4 @@
-package animal;
+package class_homework.animal;
 
 public class Animal {
 }
