@@ -1,4 +1,4 @@
-package String_homework;
+package string_homework;
 
 public class stringUtil {
     //1․Գրել method,որը կատարում է String concatenation տվյալ պարամետրով․
