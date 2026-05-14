@@ -15,7 +15,6 @@ public enum Exercise8 {
 
     public double getMonthlyCost() { return monthlyCost; }
 
-    // Մեթոդ 1 - համեմատում է երկու պլան
     public static void compareAndPrint(Exercise8 plan1, Exercise8 plan2) {
         // compareTo-ն ավելի մեծ ordinal ունեցողի համար վերադարձնում է դրական թիվ
         if (plan1.compareTo(plan2) > 0) {
@@ -27,7 +26,6 @@ public enum Exercise8 {
         }
     }
 
-    // Մեթոդ 2 - switch-ով տպում է յուրաքանչյուր պլանի առավելությունները
     public static void printBenefits(Exercise8 plan) {
         switch (plan) {
             case FREE:
@@ -46,12 +44,10 @@ public enum Exercise8 {
     }
 
     public static void main(String[] args) {
-        // Թեստ 1 - համեմատություն
         compareAndPrint(PREMIUM, BASIC);
 
         System.out.println();
 
-        // Թեստ 2 - switch-ով բոլոր պլաններն
         for (Exercise8 plan : Exercise8.values()) {
             printBenefits(plan);
         }
