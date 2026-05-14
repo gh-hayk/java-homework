@@ -12,7 +12,6 @@ public enum Exercise3 {
         public Exercise3 getNextLight() { return YELLOW; }
     };
 
-    // Abstract մեթոդ - ամեն արժեք պետք է կատարի այն
     public abstract Exercise3 getNextLight();
 
     public static void main(String[] args) {

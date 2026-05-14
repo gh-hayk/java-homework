@@ -14,7 +14,6 @@ public enum Exercise5 {
         this.fullName = fullName;
     }
 
-    // toString() override - System.out.println-ը ինքնաբերաբար կկանչի սա
     @Override
     public String toString() {
         return this.name() + " " + symbol + " - " + fullName;

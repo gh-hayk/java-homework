@@ -15,7 +15,6 @@ public enum Exercise4 {
         public double apply(double a, double b) { return a / b; }
     };
 
-    // Abstract մեթոդ - ամեն արժեք պետք է կատարի իր տարբերակը
     public abstract double apply(double a, double b);
 
     public static void main(String[] args) {
