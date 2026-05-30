@@ -2,6 +2,16 @@ package collections_homework;
 
 import java.util.HashMap;
 
+/*
+Առաջադրանք 4 — HashMap
+Ստեղծիր HashMap<String, Integer> որտեղ key-ը ուսանողի անունն է, value-ն՝ գնահատականը.
+
+Ավելացրու 4 ուսանող
+Ստացիր (get) մեկ ուսանողի գնահատականը
+Փոխիր (put նույն key-ով) մեկ ուսանողի գնահատականը
+Ջնջիր մեկ ուսանողի
+Տպիր բոլոր զույգերը for-each loop-ով
+ */
 public class Hash_Map {
     public static void main(String[] args) {
         HashMap<String, Integer> studentGrades = new HashMap<>();

@@ -1,25 +1,42 @@
 package collections_homework;
 
-
 import java.util.TreeMap;
+
+class Student implements Comparable<Student> {
+    String name;
+    int age;
+
+    // Constructor — ուսանող ստեղծելու համար
+    Student(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+    @Override
+    public int compareTo(Student other) {
+        return this.age - other.age; // ascending (փոքրից մեծ)
+    }
+    @Override
+    public String toString() {
+        return name + " (age: " + age + ")";
+    }
+}
+
 
 public class Tree_Map {
     public static void main(String[] args) {
 
-        TreeMap<Student, Integer> studentGrades = new TreeMap<>();
+        TreeMap<Student, Integer> st = new TreeMap<>();
 
-//Create a Student class with an age field.
-        Student student1 = new Student("Աննա", 20);
-        Student student2 = new Student("Դավիթ", 22);
-        Student student3 = new Student("Մարիամ", 19);
-        Student student4 = new Student("Հայկ", 21);
-        Student student5 = new Student("Լիլիթ", 20);
+        st.put(new Student("Ani", 22), 85);
+        st.put(new Student("Mariam", 25), 90);
+        st.put(new Student("Hayk", 20), 92);
+        st.put(new Student("Narek", 22), 89);
 
-        studentGrades.put(student1, 85);
-        studentGrades.put(student2, 92);
-        studentGrades.put(student3, 78);
-        studentGrades.put(student4, 96);
-        studentGrades.put(student5, 88);
+        for (Student s : st.keySet()) {
+            System.out.println(s + " -> " + st.get(s));
+        }
+
+
 
     }
 }

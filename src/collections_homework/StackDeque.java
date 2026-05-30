@@ -2,6 +2,14 @@ package collections_homework;
 
 import java.util.ArrayDeque;
 
+/*
+Առաջադրանք 3 — Stack (LIFO)
+Ստեղծիր ArrayDeque<String> որպես Stack.
+
+Ավելացրու 4 բառ push()-ով
+Հեռացրու 2 բառ pop()-ով
+Տպիր մնացածը
+ */
 public class StackDeque {
     public static void main(String[] args) {
 //1.Push 4 word

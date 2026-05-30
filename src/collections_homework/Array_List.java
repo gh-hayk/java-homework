@@ -1,9 +1,21 @@
 package collections_homework;
 
-public class ArrayList {
+import java.util.ArrayList;
+
+/*
+Առաջադրանք 1 — ArrayList հիմունքներ
+Ստեղծիր ArrayList<String> և արա հետևյալը.
+
+Ավելացրու 5 անուն (կամայական)
+Տպիր բոլոր անունները for-each loop-ով
+Հեռացրու 2-րդ index-ի անունը
+Ստուգիր՝ արդյոք ցուցակում կա "Anna" անունը (contains)
+Տպիր ցուցակի չափը (size)
+ */
+public class Array_List {
     public static void main(String[] args) {
 //1.add 5 names
-        java.util.ArrayList<String> names = new java.util.ArrayList<>();
+        ArrayList<String> names = new ArrayList<>();
         names.add("Anna");
         names.add("Gor");
         names.add("Gugush");
